@@ -1,0 +1,12 @@
+[package]
+name = "sortport-viewer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.37"
+egui_extras = "0.37"
+csv = "1.4"
+
+[profile.release]
+opt-level = 3
